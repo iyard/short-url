@@ -6,7 +6,7 @@ $ make setup
 
 ## Run
 ```sh
-$ make start
+$ make serve
 ```
 
 ## Практическое задание на должность Backend-разработчика
