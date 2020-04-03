@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'UrlController@index');
+Route::get('/', 'UrlController@create')
+    ->name('create');
+
+Route::post('/', 'UrlController@store')
+    ->name('store');
