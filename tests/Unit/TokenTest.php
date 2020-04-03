@@ -8,11 +8,11 @@ use PHPUnit\Framework\TestCase;
 class TokenTest extends TestCase
 {
     /**
-     * A basic unit test example.
+     * Test get method.
      *
      * @return void
      */
-    public function testExample()
+    public function testGet()
     {
         $token = Token::get();
         $this->assertEquals(Token::DEFAULT_LENGTH, strlen($token));
