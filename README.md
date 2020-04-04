@@ -4,14 +4,14 @@
 $ make setup
 ```
 
-## Run
-```sh
-$ make run
-```
-
 ## Tests
 ```sh
 $ make test
+```
+
+## Run
+```sh
+$ make run
 ```
 
 ## Практическое задание на должность Backend-разработчика
