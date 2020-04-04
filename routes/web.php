@@ -18,3 +18,6 @@ Route::get('/', 'UrlController@create')
 
 Route::post('/', 'UrlController@store')
     ->name('store');
+
+Route::get('/{token}', 'UrlController@redirect')
+    ->name('redirect');
