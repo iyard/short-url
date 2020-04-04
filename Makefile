@@ -6,7 +6,7 @@ setup:
 	php artisan migrate
 	npm install
 
-serve:
+run:
 	php artisan serve
 
 watch:
