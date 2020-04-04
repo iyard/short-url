@@ -6,7 +6,12 @@ $ make setup
 
 ## Run
 ```sh
-$ make serve
+$ make run
+```
+
+## Tests
+```sh
+$ make test
 ```
 
 ## Практическое задание на должность Backend-разработчика
