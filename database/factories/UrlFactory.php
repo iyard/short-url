@@ -22,5 +22,6 @@ $factory->define(Url::class, function (Faker $faker) {
     return [
         'url' => $faker->unique()->url,
         'token' => $faker->unique()->regexify("[A-Za-z0-9]{6}"),
+        'count_visits' => $faker->randomDigit
     ];
 });
